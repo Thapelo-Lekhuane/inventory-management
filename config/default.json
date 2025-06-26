@@ -1,0 +1,13 @@
+{
+    "port"  : 15000,
+    "httpPort": 15000,
+    "newRelicEnabled"    : 0,
+
+    "dbPoolSettings"   : {
+        "host"    : "localhost",
+        "user"    : "root",
+        "password": "Dinkwe@25",
+        "database": "inventorylocal",
+        "connectionLimit" : 10
+    }
+}
