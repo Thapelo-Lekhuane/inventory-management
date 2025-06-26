@@ -48,10 +48,7 @@ if ('production' === app.get('env')) {
 }
 
 
-/**--------------------------------------------------------
- *                      AUTHORIZATION
- *---------------------------------------------------------
- */
+
 app.use('/v1/auth',     users);
 app.use('/v1/inventory', validator(), inventory);
 app.use('/v1/activity', activity);
